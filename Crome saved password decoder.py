@@ -2,7 +2,7 @@
 # But srsly, hit that sub button so you don't miss out on more content! 
 #It will be decode the crome saved passswords and saved ot loginids.txt
 #works on python
-
+'''For any error Contact on gabru.ahir@gmail.com'''
 '''imports'''
 import os
 import sqlite3
