@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bluetooth Controller for HC-05</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    
+</head>
+
+<body>
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>BLUETOOTH CONNECTOR</h2>
+                        <h3>COM-12</h3>
+                        <p>Press Buttons For Control The Device.</p>
+			<p>                                     </p>
+                    
+                         </div>
+                        
+                    </div>
+		    <div id='file-name'>---</div>
+                    <div class="get-start-area">
+                        <form class="form-inline">
+                            <br><input type="button" class="submit" value="CONNECT" onclick="connect(),txt()">
+                            <input type="button" class="submit" value="DISCONNECT" onclick="dconnect(),txt()">
+                            </br>
+
+                            <input type="button" class="submit" value="Green On" onclick="k1('2')">
+                            <input type="button" class="submit" value="Blue On" onclick="k1('0')">
+                            <p><input type="button" class="submit" value="Green Off" onclick="k1('3')">
+                            <input type="button" class="submit" value="Blue Off" onclick="k1('1')">
+                            </p>
+                            <input type="button" class="submit" value="DJ Effect" onclick="k5()">
+                            <input type="button" class="submit" value="EXIT" onclick="exit()">
+                           
+			    </form>
+                    </div>
+                </div>
+		
+            </div>
+        </div>
+    </section>
+</body>
+</html>
